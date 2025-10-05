@@ -1,0 +1,157 @@
+@media (max-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 16px;
+    }
+
+    header {
+        height: auto;
+        padding: 12px 0;
+    }
+
+    .header_logo {
+        font-size: 20px;
+    }
+
+    nav ul {
+        gap: 24px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    .search input {
+        width: 100px;
+        font-size: 14px;
+        padding: 6px 12px;
+        border-radius: 20px;
+    }
+
+    .introduction .container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .introduction_text h1 {
+        font-size: 32px;
+        line-height: 1.3;
+    }
+
+    .introduction_text p {
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+    .introduction_img img {
+        width: 280px;
+    }
+
+    .books, .books-knowledge {
+        padding: 40px 16px;
+    }
+
+    .books-top h2 {
+        font-size: 18px;
+    }
+
+    .more {
+        font-size: 14px;
+        padding: 6px 12px;
+        border-radius: 20px;
+    }
+
+    .books-item {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .books-item .card {
+        width: calc((100% - 20px) / 2);
+    }
+
+    .card img {
+        height: 180px;
+    }
+
+    .info h3 {
+        font-size: 13px;
+    }
+
+    .info p {
+        font-size: 11px;
+    }
+
+    .info span {
+        font-size: 13px;
+    }
+
+    .books-item2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .books-item2 .card {
+        width: calc((100% - 20px) / 2);
+    }
+
+    .books-item2 .card img {
+        height: 200px;
+    }
+
+    .books-item2 .info h3 {
+        font-size: 15px;
+    }
+
+    .books-item2 .info .desc {
+        font-size: 13px;
+    }
+
+    .footer_subscribe {
+        flex-direction: column;
+        text-align: center;
+        gap: 16px;
+    }
+
+    .footer_subscribe h3 {
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    .form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .form input {
+        width: 100%;
+    }
+
+    .footer_bottom {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .footer_bottom nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .footer_bottom nav ul li a {
+        font-size: 14px;
+    }
+
+    .social-icons {
+        gap: 16px;
+    }
+
+    .social-icons a {
+        font-size: 18px;
+    }
+}
