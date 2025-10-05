@@ -17,10 +17,9 @@
     .header_logo {
         font-size: 18px;
         letter-spacing: 1px;
-        line-height: 1.2;
     }
     .header_logo small {
-        display: block;
+        display: flex;
         font-size: 11px;
         color: #666;
     }
